@@ -1,0 +1,56 @@
+const u = (id: string, w = 1600) =>
+  `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
+
+export const images = {
+  hero: [
+    "/images/banner.png",
+    "/images/banner2.png",
+    "/images/insideShop.webp",
+    "/images/insideShop2.webp",
+    "/images/gold1.webp",
+  ],
+  goldCategory: "/images/gold1.webp",
+  silverCategory: "/images/gold7.webp",
+  shop: "/images/shop.webp",
+  heritage: "/images/insideShop.webp",
+  aboutPortrait: "/images/insideShop3.webp",
+  contact: "/images/insideShop2.webp",
+  occasionWedding: "/images/gold2.webp",
+  occasionFestive: "/images/gold3.webp",
+  occasionEveryday: "/images/gold4.webp",
+  occasionGifting: "/images/gold5.webp",
+  shopGallery: [
+    "/images/shop.webp",
+    "/images/insideShop.webp",
+    "/images/insideShop2.webp",
+    "/images/insideShop3.webp",
+  ],
+  gold: {
+    kundan: "/images/gold1.webp",
+    jhumka: "/images/gold2.webp",
+    lakshmi: "/images/gold3.webp",
+    bangles: "/images/gold4.webp",
+    choker: "/images/gold5.webp",
+    temple: "/images/gold6.webp",
+    chain: "/images/gold7.webp",
+    ring: "/images/gold8.webp",
+  },
+  silver: {
+    necklace: u("photo-1611652022419-a9419f74343d"),
+    jhumkas: u("photo-1635767798638-3e25273a8236"),
+    bracelet: u("photo-1450297350677-623de5750b3a"),
+    anklets: u("photo-1596944924616-7b38e7cfac36"),
+    choker: u("photo-1573408301185-9146fe634ad0"),
+    hoops: u("photo-1622398925373-3f91b1e772f3"),
+    bangles: u("photo-1506630448388-4e683c67ddb0"),
+    pendant: u("photo-1611591437281-460bfbe1220a"),
+  },
+  instagram: [
+    "/images/shop.webp",
+    "/images/insideShop.webp",
+    "/images/gold1.webp",
+    "/images/insideShop2.webp",
+    "/images/gold4.webp",
+    "/images/insideShop3.webp",
+  ],
+} as const;
