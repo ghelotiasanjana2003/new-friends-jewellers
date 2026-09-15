@@ -8,7 +8,7 @@ import { site } from "@/data/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about New Friends Jewellers, a Ladhakh jewellery showroom offering gold and silver pieces for life's most memorable occasions.",
+    "Learn about New Friends Jewellers, a Jaipur jewellery showroom offering gold and silver pieces for life's most memorable occasions.",
 };
 
 export default function AboutPage() {
@@ -16,8 +16,8 @@ export default function AboutPage() {
     <>
       <PageHero
         title="About Us"
-        subtitle="A Ladhakh jewellery showroom dedicated to craft, care, and the occasions that matter."
-        image={images.Ladhakh}
+        subtitle="A Jaipur jewellery showroom dedicated to craft, care, and the occasions that matter."
+        image="/images/banner2.png"
       />
       <section className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-2 lg:py-24">
         <div className="relative aspect-[4/5] overflow-hidden bg-beige">
@@ -34,7 +34,7 @@ export default function AboutPage() {
           <h2 className="mt-4 font-serif text-3xl text-text sm:text-4xl">New Friends Jewellers</h2>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted">
             <p>
-              From the heart of Ladhakh, New Friends Jewellers brings together traditional craftsmanship and
+              From the heart of Jaipur, New Friends Jewellers brings together traditional craftsmanship and
               contemporary design. Our showroom is a place to discover gold and silver jewellery for weddings,
               festivals, gifting, and everyday luxury.
             </p>
